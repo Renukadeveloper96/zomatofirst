@@ -1,0 +1,16 @@
+.panel{
+    width:600px;
+}
+.Register{
+    font-weight:bold;
+    font-size:20px;
+
+}
+.buttoncancel{
+    width:50%;
+    background-color:red;
+}
+.buttonLogin{
+    width:50%;
+    background-color:green;
+}

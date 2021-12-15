@@ -1,0 +1,99 @@
+#header{
+    /*background-color:red;*/
+    background-color:#008f9c;
+    height:66px;
+    width:100%
+}
+
+a{
+    text-decoration: none;
+}
+
+#headingListing{
+    color:red;
+    margin: 28%;
+    height:20px;
+    font-size:20px;
+    border-radius:50%;
+    
+    
+}
+
+#logo_main{
+    position: absolute;
+    margin-top:2px;
+    border-radius:50%;
+    height:48px;
+    width:48px;
+}
+
+.logoRight{
+    height:60px;
+    width:200px;
+    margin-right: 1%;
+    margin-top: 1%;
+    float:right;
+}
+.orders{
+    color:yellow;
+}
+
+#login{
+    margin-top:7px;
+    font-size: 17px;
+    color:white;
+    font-weight: bold;
+    margin-left:-70px;
+    float:left;
+    text-decoration: none;
+}
+#loginHi{
+    margin-top:7px;
+    font-size: 17px;
+    color:white;
+    font-weight: bold;
+    margin-left:-120px;
+    float:left;
+    text-decoration: none;
+}
+
+.font1{
+    font-size:20px;
+    text-decoration: none;
+    color:white;
+}
+.font2{
+    font-size:20px;
+    text-decoration: none;
+    color:white;
+    margin-left:20px;
+   
+}
+#loginbox{
+    padding: 8px;
+    border: 1px solid white;
+    box-shadow: 0px 0px 4px white;
+    font-size: 17px;
+    color:white;
+    font-weight: bold;
+    float:left;
+    width:200px;
+    margin-top:-25px;
+    padding-left:30px;
+    
+}
+@media screen and (max-width:1000px){
+    body{
+        /*background-color: lightslategrey;*/
+         background-color:white;
+        }
+    .login{
+        width: 40%;
+        }
+        .font1{
+            margin-left:-90px;
+        }
+    .componentSubHeading{
+        color:rgb(230, 41, 41);
+    }
+}

@@ -1,0 +1,96 @@
+.sliderImage{
+    height:300px;
+    width:80%;
+    margin-left:12%;
+}
+.galButton{
+    position:absolute;
+    margin-left:-16%;
+    margin-top:19%;
+}
+
+.container{
+    margin-left:250px;
+}
+
+.star:hover{
+    transform:scale(1.5)
+}
+.rating_txt{
+    color:red
+}
+.bg-danger{
+background-color:white;
+}
+.style{
+font-style:oblique;
+}
+.imgcircle{
+    height:50px;
+    width:50px;
+    border-radius:50%;
+}
+.btncircle{
+    margin-top:20px;
+    height:30px;
+    width:30px;
+    border-radius:50%; 
+    border-color: black;
+    background-color: green;
+;
+}
+.btncircle1{
+    margin-top:20px;
+    height:30px;
+    width:30px;
+    border-radius:50%; 
+    border-color: black;
+    background-color:red;
+    margin-left:30px;
+}
+.pm{
+    font-weight: 500px;
+    font-style:bold;
+}
+.panel-danger{
+    margin-left:300px;
+}
+.colormobile{
+ color:#192f60;
+ font-size:20px;
+}
+.colorNumber{
+    color:red;
+}
+.restaurantname{
+    font-size:18px;
+    color:#192f60;
+    font-weight:bold;
+}
+.restaurantname1{
+    font-size:15px;
+    color:#192f60;
+    font-weight:10px;
+}
+.Details{
+    color:#008f9c;
+}
+.buttonproceed{
+    background-color:red;
+    width:300px;
+    margin-top:20px;
+}
+@media screen and (max-width:1000px){
+    body{
+        /*background-color: lightslategrey;*/
+        background-color: white;
+        }
+    .panel{
+        width:700px;
+        margin-left:-2px;
+        }
+    .col-md-77{
+        margin-left:500px;
+        margin-top:-80px;
+    }
+    }
