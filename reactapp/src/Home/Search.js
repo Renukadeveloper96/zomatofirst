@@ -60,7 +60,7 @@ class Search extends Component {
                 <span>e!</span>
             </div>
             <div id="heading">
-                <span className="COLORSF">Find</span> The Best Reståurânts,<span className="COLORSF">Cafés and bärs</span> <span id="usercity"></span>
+                <span className="COLORSF">Find</span> <span class="Restaurant">The Best Reståurânts,</span><span className="COLORSF">Cafés and bärs</span> <span id="usercity"></span>
             </div>
             <div id="dropdown">
                 <select id="city" onChange={this.handleCity} >
